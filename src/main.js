@@ -1,6 +1,7 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
+import Vcard from '../node_modules/vuetify/es5/components/Vcard'
 
 import {
   Vuetify,
@@ -13,7 +14,6 @@ import {
   VGrid,
   VToolbar,
   transitions,
-  Vcard,
   VParallax
 } from 'vuetify'
 import '../node_modules/vuetify/src/stylus/app.styl'
